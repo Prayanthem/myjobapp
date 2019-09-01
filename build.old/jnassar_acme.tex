@@ -1,0 +1,306 @@
+\documentclass[10pt, letterpaper]{moderncv}
+
+\usepackage{textcomp}
+\usepackage{ifthen}
+\usepackage{lastpage}
+\usepackage{ragged2e}
+
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+
+\moderncvtheme[purple]{banking}
+
+\name{Jean}{Nassar}
+\title{Résumé}
+
+\email{jeannassar5@gmail.com}
+
+
+\mobile{+81-080-8333-6065}
+
+
+\social[github]{masasin}
+
+\social[linkedin]{masasin}
+
+
+
+
+
+\begin{document}
+\rfoot{\ifthenelse{\value{page}=1}{}{\addressfont\itshape\textcolor{gray}{\thepage}}}
+% Letter Information
+\recipient{Wile E. Coyote}{ACME Corporation for Making Explosions, Inc \\ Nowhere, NK}
+\date{\today}
+\opening{Please don't eat me!}
+\closing{Meep meep,}
+\enclosure[Attached]{r\'{e}sum\'{e}} % List of enclosed documents
+
+\makelettertitle            % Print letter title
+    I would like to become a Test Subject at your company.
+
+    I know that
+        ACME
+    is one of the leading explosives manufacturers in the world.
+
+\input{"C:/Users/taplop/Code/resume/resume/templates/latex/letter_templates/analysis"}
+
+
+Thank you for taking the time to review my application.
+
+\makeletterclosing          % Print letter signature
+\newpage
+\setcounter{page}{1}
+\justifying
+
+\rfoot{\addressfont\itshape\textcolor{gray}{\ifthenelse{\value{page}=1}{\\\small updated 2018--12--09}{\thepage\\\small updated 2018--12--09}}}
+
+\makecvtitle
+\vspace{-20pt}
+
+
+          \cvitem{
+      Interests%
+      }{Automation, AI, robotics, statistics, space, anatomy}
+
+          \cvitem{
+      Citizenships%
+      }{Canada, Lebanon, Sierra Leone}
+
+          \cvitem{
+      Certifications%
+      }{CPR HCP (Health Care Provider), Lebanese driving license}
+
+
+\section{Education}
+    \begin{samepage}
+      \cventry
+          {Kyoto, Japan}
+          {\href{http://kyoto-u.ac.jp}{%
+             Kyoto University%
+}}
+          {%
+             MS Mechanical Engineering Science%
+}
+          {2014--Present}
+          {%
+\href{www.mechatronics.me.kyoto-u.ac.jp}{%
+               Mechatronics Laboratory%
+}%
+%
+          }
+        {}
+    \end{samepage}
+    \begin{samepage}
+      \cventry
+          {Kyoto, Japan}
+          {\href{http://kyoto-u.ac.jp}{%
+             Kyoto University%
+}}
+          {%
+             Research student%
+}
+          {2013--2014}
+          {%
+\href{www.mechatronics.me.kyoto-u.ac.jp}{%
+               Mechatronics Laboratory%
+}%
+%
+          }
+        {}
+    \end{samepage}
+    \begin{samepage}
+      \cventry
+          {Waterloo, ON}
+          {\href{http://www.uwaterloo.ca}{%
+             University of Waterloo%
+}}
+          {\href{https://uwaterloo.ca/mechanical-mechatronics/engineering/program-overview}{%
+             BASc, Honours Mechatronics Engineering%
+}}
+          {2008--2013}
+          {%
+          }
+        {}
+    \end{samepage}
+
+
+\section{Publications}
+  \begin{enumerate}
+      \item{
+          ``Developing a System of Superimposed Past Image Records Implemented for Teleoperation of an Unmanned Multirotor.''
+        Jean Nassar. Supervisor: Fumitoshi Matsuno.
+        Masters thesis, 
+        Kyoto University,
+        2016.
+      }
+  \end{enumerate}
+
+
+\section{Co-op experience}
+    \begin{samepage}
+      \cventry
+          {Toronto, ON}
+          {Junior Engineer%
+}
+          {%
+Starquip Integrated Systems, Ltd%
+}
+          {Spring 2012}
+        {}
+        {
+            \begin{itemize}
+                \item{Assisted in the mechanical design of custom pneumatic lift-assist devices}
+                \item{Created modular assemblies and circuits}
+                \item{Reduced design time for new systems}
+                \item{Converted 2D drawings to 3D assemblies}
+                \item{Produced ASME-compliant drawings}
+            \end{itemize}
+        }
+    \end{samepage}
+      %\vspace{10pt}
+    \begin{samepage}
+      \cventry
+          {Toronto, ON}
+          {Junior Project Engineer%
+}
+          {%
+Kevin Quan Studios, Ltd%
+}
+          {Fall 2011}
+        {}
+        {
+            \begin{itemize}
+                \item{Completed basic and intermediate Solidworks instruction}
+                \item{Created assemblies and drawings of mountain and racing bicycles}
+                \item{Wrote airfoil generator and exporter using LibreOffice Calc, Python}
+                \item{Performed 2D and 3D CFD analysis of airfoils and bicycles}
+                \item{Determined the optimum configuration for several racing bicycles}
+                \item{Designed tooling molds and parts for various bicycle components}
+            \end{itemize}
+        }
+    \end{samepage}
+      %\vspace{10pt}
+    \begin{samepage}
+      \cventry
+          {Waterloo, ON}
+          {Hardware Associate%
+}
+          {%
+Intelligent Mechatronics Systems, Inc%
+}
+          {Winter 2011}
+        {}
+        {
+            \begin{itemize}
+                \item{Prototyped hardware solutions for future products}
+                \item{Provided general assistance to lead design engineers}
+            \end{itemize}
+        }
+    \end{samepage}
+      %\vspace{10pt}
+    \begin{samepage}
+      \cventry
+          {Waterloo, ON}
+          {Research Assistant, %
+	      Multiscale Additive Manufacturing Lab
+}
+          {%
+University of Waterloo%
+}
+          {Spring 2010}
+        {}
+        {
+            \begin{itemize}
+                \item{Designed, procured, and built essential parts for the enclosure, printhead assembly, and environmental isolation system for a solid freeform fabrication workstation}
+                \item{Workstation produces 3D scaffolds for bone and cartilage regrowth}
+                \item{Performed image processing on electron micrographs using Octave}
+            \end{itemize}
+        }
+    \end{samepage}
+      %\vspace{10pt}
+    \begin{samepage}
+      \cventry
+          {Beirut, Lebanon}
+          {Research Assistant, %
+	      Computer Vision and Mobile Robotics Lab
+}
+          {%
+American University of Beirut%
+}
+          {Fall 2009}
+        {}
+        {
+            \begin{itemize}
+                \item{Researched and developed a positional navigation system for robots}
+                \item{Quantized Inertial Measurement Unit (IMU) error}
+            \end{itemize}
+        }
+    \end{samepage}
+      %\vspace{10pt}
+    \begin{samepage}
+      \cventry
+          {Freetown, Sierra Leone}
+          {Engineer in Training%
+}
+          {%
+Sierra Construction Systems, Ltd%
+}
+          {Winter 2009}
+        {}
+        {
+            \begin{itemize}
+                \item{Computerized payroll and significantly saved time and resources using Microsoft Excel, Word, and VBA programming}
+                \item{Payroll productivity increased by approximately 6000\%}
+                \item{Performed cost and time estimation for various construction projects}
+            \end{itemize}
+        }
+    \end{samepage}
+      %\vspace{10pt}
+  %\vspace{-10pt}
+
+
+\section{Selected projects}
+          \cvlistitem{Software lead for lab's teleoperation robot, built from scratch}
+
+          \cvlistitem{Automation of assembly line robot (Allen-Bradley PLCs)}
+
+          \cvlistitem{Résumé and cover letter generator (Python, Jinja, and \LaTeX)}
+
+
+\section{Selected courses}
+    \cvlistdoubleitem{Robotics}{Modern control theory}
+    \cvlistdoubleitem{Automatic control systems}{Finite element analysis}
+    \cvlistdoubleitem{Mechatronic system integration}{Microproc. systems and interfacing}
+    \cvlistdoubleitem{Electromechanical machine design}{Algorithms and data structures}
+
+
+\section{Technical skills}
+          \cvlistitem{Python (incl. SciPy stack), C++, C, ROS, Matlab, gnuplot, \LaTeX}
+
+          \cvlistitem{Linux (Arch, Fedora, Ubuntu), Microsoft Windows (XP to 10)}
+
+          \cvlistitem{Raspberry Pi, Arduino, mbed, AVR, Allen Bradley PLC}
+
+          \cvlistitem{Solidworks, Autodesk Inventor, AutoCAD, Sketchup}
+
+          \cvlistitem{Vim, Git, Gimp, Inkscape, LibreOffice, Microsoft Office}
+
+
+\section{Natural languages}
+          \cvitem{
+      Fluent%
+      }{English, French, Lebanese, Japanese}
+
+          \cvitem{
+      Intermediate%
+      }{Spanish, Arabic}
+
+          \cvitem{
+      Beginner%
+      }{German, Mandarin, Russian, Krio}
+
+
+
+
+\end{document}

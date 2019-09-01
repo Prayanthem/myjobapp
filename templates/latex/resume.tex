@@ -12,6 +12,12 @@
 
 \moderncvtheme[<< theme.colour >>]{<< theme.style >>}
 
+\patchcmd{\makecvtitle}{[b]}{[t]}{}{}
+\patchcmd{\makecvtitle}{[b]}{[t]}{}{}
+
+\setlength{\makecvheadnamewidth}{12cm}
+\renewcommand*{\namefont}{\fontsize{24}{29}\mdseries\upshape}
+
 \name{<< name.first >>}{<< name.last >>}
 \title{<< title >>}
 

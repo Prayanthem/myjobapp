@@ -253,8 +253,10 @@ class ResumeGenerator(object):
         os.chdir(config.BUILD_DIR)
         for file in tqdm.tqdm(changed_files, desc="Generating PDFs",
                               leave=True, unit="pdf"):
-            subprocess.call("{} {}".format(self.data["engine"],
+            print("{} {}".format(self.data["engine"],
                                            os.path.basename(file)).split())
+            subprocess.call("{} {}".format(self.data["engine"],
+                                           os.path.basename(file)).split(), shell=True)
         os.chdir("..")
 
     @staticmethod
